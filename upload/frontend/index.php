@@ -173,7 +173,6 @@ require_once CMTX_DIR_SYSTEM . 'startup.php';
 if (!$cmtx_db->isConnected()) {
     return;
 }
-
 define('CMTX_HTTP_VIEW', $cmtx_url->getCommenticsURL() . 'frontend/view/');
 define('CMTX_HTTP_3RDPARTY', $cmtx_url->getCommenticsURL() . '3rdparty/');
 
